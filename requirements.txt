@@ -1,0 +1,35 @@
+# HarvoxAI Trading Bot - Dependencies
+# Install with: pip install -r requirements.txt
+
+# Core Data Processing
+pandas>=2.0.0
+numpy>=1.24.0
+
+# HTTP Requests for API calls
+requests>=2.31.0
+
+# Date/Time handling
+python-dateutil>=2.8.2
+
+# Technical Analysis (optional but recommended)
+ta-lib>=0.4.28  # Requires system TA-Lib installation
+
+# Async support (for future enhancements)
+aiohttp>=3.9.0
+
+# Configuration management
+python-dotenv>=1.0.0
+
+# Logging enhancements
+coloredlogs>=15.0.1
+
+# Testing
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+
+# Type checking
+mypy>=1.5.0
+
+# Code formatting
+black>=23.0.0
+flake8>=6.0.0
